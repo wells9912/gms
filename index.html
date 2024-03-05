@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel='stylesheet' href="style.css">
+    <title>Games Store</title>
+
+
+</head>
+
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Games Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end bg-primary" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Aventura</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Açaõ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                data-bs-toggle="dropdown" aria-expanded="false">
+                  Simulação
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Comprar game </a></li>
+                  <li><a class="dropdown-item" href="#">Alugar game</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Devoluçao</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-joystick"></i></a>
+                
+            </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="4.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Helo 1  </h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="2.jfif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Helo 2</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            <h5>Helo 3</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <section id="pacotes">
+      
+      <h2 style="color: black; ">Adquira agora </h2>
+<p style="color: black;">
+   Versão deluxe 80% de desconto até amanhã 00:00hs . 
+</p>
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="4.webp" class="card-img-top" alt="...">
+        <div class="card-body bg-warning">
+          <h4 class="card-title">Helo 1</h4>
+          <h1 class="card-subtitle text-muted">R$350,00$</h1>
+          <p class="card-text">Versão deluxe PC-PS4-PS5.</p>
+        </div>
+        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+        <div class="card-footer">
+        <small class="text-muted">Em até 6x</small>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card h-100">
+        <img src="3.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-warning">
+          <h4 class="card-title">Helo 2</h4>
+          <h1 class="card-subtitle text-muted">R$600,00$</h1>
+          <p class="card-text">Versão deluxe PC-PS4-PS5.</p>
+        </div>
+        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+        <div class="card-footer">
+        <small class="text-muted">Em até 12x</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="2.jfif" class="card-img-top" alt="...">
+      <div class="card-body bg-warning">
+        <h4 class="card-title">Helo 3</h4>
+        <h1 class="card-subtitle text-muted">R$900,00$</h1>
+        <p class="card-text">Versão deluxe PC-PS4-PS5</p>
+      </div>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+      <div class="card-footer">
+      <small class="text-muted">Em até 12x</small>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+      <h1 style="color: black;">Sinopse Helo 1</h1>
+      <p style="color: black;">Tudo o que é possível observar no espaço já aconteceu, seja minutos atrás ou milhões de anos no passado. Isso acontece porque, de acordo com a teoria da relatividade do Einstein, nada viaja mais rápido que a luz, mas ela ainda precisa de tempo para percorrer longas distâncias como as que vemos no Universo, de acordo com a agência espacial norte-americana Nasa. </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+      <h1 style="color: black;">Sinopse Helo 2</h1>
+      <p style="color: black;">Uma descoberta de 2014 identificou o que os cientistas chamaram de “rios de hidrogênio” no Universo. O achado foi publicado na revista Nature e pode explicar como algumas galáxias mantêm o seu ritmo de formação de estrelas. 
+
+          O fenômeno se trata de fracos filamentos contínuos de gás hidrogênio que viajam pelo espaço intergaláctico, conhecido também como fluxos frios, e que teoricamente poderiam ser a fonte de alimentação da formação estelar. </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+      <h1 style="color: black;">Sinopse Helo 3</h1>
+      <p style="color: black;">Descoberta no ano 2000 pela equipe do Hubble, composta por cientistas da Nasa e da ESA, a estrela HD 140283 (ou Matusalém), está localizada a mais de 190 anos-luz de distância da Terra e tem idade estimada de 14,5 bilhões de anos, com margem de erro para mais ou menos 800 milhões de anos.
+
+          Segundo a Nasa, as estimativas são que o Universo, formado pelo fenômeno do Big Bang, tem 13,7 bilhões de anos, com margem de erro de 200 milhões de anos. Ou seja, mesmo considerando os limites de incertezas, a estrela ainda seria mais antiga do que a própria explosão que teria dado origem a tudo. </p>
+  </div>
+</section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg .bg-info.bg-gradient">
+<section>
+<footer>
+	<nav>
+		<ul>
+			<li><a href="#">Termos de uso</a></li>
+			<li><a href="#">Política de privacidade</a></li>
+			<li><a href="#">Sobre nós</a></li>
+
+		</ul>
+	</nav>
+    </div>
+        <p>Desenvolvido por Maxwell</p>
+        <p>Entre em contato pelo e-mail: contato@exemplo.com</p>
+        <p><code>&copy; 2024 - Todos os direitos reservados</p></code>
+
+</footer>
+</section>
+</nav>
+</body>

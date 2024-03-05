@@ -1,0 +1,22 @@
+body{
+    font-weight: 400;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
+    margin: 0;
+}
+
+header{
+   background: primary;
+
+}
+
+
+
+.carousel-caption h5{
+    font-size: 80 px;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black;
+}
+
